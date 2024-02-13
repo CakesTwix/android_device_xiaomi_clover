@@ -22,7 +22,7 @@
 #
 
 # Inherit some common Arrow stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/clover/device.mk)
@@ -30,7 +30,7 @@ $(call inherit-product, device/xiaomi/clover/device.mk)
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := arrow_clover
+PRODUCT_NAME := lineage_clover
 PRODUCT_CHARACTERISTICS := tablet
 PRODUCT_DEVICE := clover
 PRODUCT_MODEL := MI PAD 4
